@@ -5,7 +5,7 @@
       "default": true
     }
   ],
-  "name": "related-list-quick-links-console-override",
+  "name": "sfdc-related-list-quick-links-console-override",
   "namespace": "",
   "sfdcLoginUrl": "https://login.salesforce.com",
   "sourceApiVersion": "61.0"

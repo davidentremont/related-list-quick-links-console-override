@@ -45,12 +45,7 @@
         // Create an observer instance linked to the callback function
         const observer = new MutationObserver(detectLookupElements)
 
-        // measure performance time of detectLookupElements
-        const startTime = performance.now()
-        
-
         // Start observing the target node for configured mutations, Options for the observer (which mutations to observe)
         observer.observe(targetNode, { childList: true, subtree: true })
-        console.log('Observer:', performance.now() - startTime)
     }
 })

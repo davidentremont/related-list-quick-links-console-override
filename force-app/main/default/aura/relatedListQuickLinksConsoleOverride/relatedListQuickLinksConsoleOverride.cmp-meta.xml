@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <AuraDefinitionBundle xmlns="http://soap.sforce.com/2006/04/metadata">
     <apiVersion>61.0</apiVersion>
-    <description>A Lightning Component Bundle</description>
+    <type>Component</type>
+    <description>Opens lookups within the Related List Quick Links standard component in new console subtabs, instead of console primary tabs.</description>
 </AuraDefinitionBundle>

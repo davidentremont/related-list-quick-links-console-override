@@ -1,4 +1,4 @@
-<aura:component implements="lightning:backgroundUtilityItem, flexipage:availableForAllPageTypes">
+<aura:component implements="lightning:backgroundUtilityItem, flexipage:availableForAllPageTypes">    
     <aura:handler name="init" value="{!this}" action="{! c.onLoad }" />
     <lightning:workspaceAPI aura:id="consoleAPI" />
 </aura:component>	

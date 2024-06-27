@@ -43,3 +43,14 @@ $RECYCLE.BIN/
 **/__pycache__/
 **/.venv/
 **/venv/
+.prettierignore
+.prettierrc
+jest.config.js
+.husky/pre-commit
+.vscode/extensions.json
+.vscode/launch.json
+.vscode/settings.json
+config/project-scratch-def.json
+force-app/main/default/aura/.eslintrc.json
+scripts/apex/hello.apex
+scripts/soql/account.soql
